@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
+    
 }
 
 .card {
@@ -7,4 +7,23 @@ body {
     margin-left: 3.15rem;
     margin-right: 3rem;
     margin-bottom: 1rem;
+}
+
+#title-image {
+    width:100%;
+    z-index: 0;
+}
+
+.title {
+    color: white;
+    z-index: 99;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-box {
+    z-index: 0;
+    position: relative;
 }
