@@ -38,6 +38,14 @@ body {
     margin-top: 6rem;
 }
 
+.gallery-33 {
+    width: 33.3%;
+}
+
+.gallery-50{
+    width: 50%;
+}
+
 #title-image {
     width:100%;
     z-index: 0;
