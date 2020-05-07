@@ -71,16 +71,15 @@ a:hover span {
 }
 
 
-.image-container{
+.image-container-33{
     float: left;
-    width: 250px;
+    width: 33.3%;
     height: 200px;
     position: relative;
     cursor: pointer;
 }
 
-.image-container img {
-    width: 250px;
+.image-container-33 img {
     height: 200px;
     position: absolute;
 }
@@ -110,7 +109,7 @@ a:hover span {
     text-align: center;
 }
 
-.image-container:hover .image-caption {
+.image-container-33:hover .image-caption {
     opacity: 1;
 }
 
