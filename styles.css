@@ -1,9 +1,6 @@
-body {
-    
-}
 
 a {
-    position: relative
+    position: relative;
 }
 
 a span {
@@ -16,7 +13,11 @@ a span {
 }
 
 a:hover span {
-    display: block
+    display: block;
+}
+
+.container-33{
+    width: 33.3%;
 }
 
 .title-box {
