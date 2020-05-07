@@ -74,14 +74,14 @@ a:hover span {
 .image-container-33{
     float: left;
     width: 33.3%;
-    height: 200px;
+    height: 349px;
     position: relative;
     cursor: pointer;
 }
 
 .image-container-33 img {
-    height: 200px;
     position: absolute;
+    width: 100%;
 }
 
 .image-caption div {
@@ -113,12 +113,22 @@ a:hover span {
     opacity: 1;
 }
 
+@media only screen and (max-width: 1000px){
+
+    .image-container-33{
+        height: 200px;
+    }
+}
+
 @media only screen and (max-width: 800px){
     .explore {
         top: 63%;
     }
     .title {
         top: 20%;
+    }
+    .image-container-33{
+        height: 176px;
     }
 }
 
@@ -128,5 +138,9 @@ a:hover span {
     }
     .card {
         width: 100%;
+    }
+
+    .image-container-33{
+        height: 100px;
     }
 }
