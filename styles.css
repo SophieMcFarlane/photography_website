@@ -2,6 +2,23 @@ body {
     
 }
 
+a {
+    position: relative
+}
+
+a span {
+    display:none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+a:hover span {
+    display: block
+}
+
 .title-box {
     z-index: 0;
     position: relative;
@@ -11,9 +28,10 @@ body {
     color: white;
     z-index: 99;
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 5rem;
 }
 
 .explore {
