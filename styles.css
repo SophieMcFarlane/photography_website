@@ -1,24 +1,5 @@
 
-a {
-    position: relative;
-}
-
-a span {
-    display:none;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.8)
-}
-
-a:hover span {
-    display: block;
-}
-
-.container-33{
-    width: 33.3%;
-}
+/*Homepage styling */
 
 .title-box {
     z-index: 0;
@@ -70,16 +51,42 @@ a:hover span {
     z-index: 0;
 }
 
-
+/* Japan classes Styling */
 .image-container-33{
     float: left;
     width: 33.3%;
-    height: 349px;
+    height: 338px;
     position: relative;
     cursor: pointer;
 }
 
 .image-container-33 img {
+    position: absolute;
+    width: 100%;
+}
+
+.image-container-25{
+    float: left;
+    width: 25%;
+    height: 252px;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container-25 img {
+    position: absolute;
+    width: 100%;
+}
+
+.image-container-50{
+    float: left;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container-50 img {
     position: absolute;
     width: 100%;
 }
@@ -107,12 +114,28 @@ a:hover span {
 .image-caption p {
     color: white;
     text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
 }
 
 .image-container-33:hover .image-caption {
     opacity: 1;
 }
 
+
+.image-container-50:hover .image-caption {
+    opacity: 1;
+}
+
+.image-container-25:hover .image-caption {
+    opacity: 1;
+}
+
+.title-japan {
+    text-align: center;
+}
+
+/* Media Queries*/
 @media only screen and (max-width: 1000px){
 
     .image-container-33{
@@ -128,7 +151,13 @@ a:hover span {
         top: 20%;
     }
     .image-container-33{
-        height: 176px;
+        height: 165px;
+    }
+    .image-container-50{
+        height: 250px;
+    }
+    .image-container-25{
+        height: 125px;
     }
 }
 
